@@ -15,6 +15,7 @@ class KNN {
     this.labels = new Set(this.y);
   }
 
+  // sorts current nearest neigbors from closest to furthest to observed sample
   _sortNeighbors() {
     this.neighbors.sort((elem1, elem2) => {
       if (elem1.distance < elem2.distance) return -1;
@@ -35,6 +36,7 @@ class KNN {
         this.neighbors.push(obj);
         this._sortNeighbors();
       }
+      // since this.neighbors is sorted, the last element is the furthest "nearest neighbor"
       if (dist < this.neighbors.slice(-1)[0].distance) {
         this.neighbors.pop();
         this.neighbors.push(obj);
@@ -52,6 +54,7 @@ class KNN {
     for (let neighbor of this.neighbors) {
       counts[neighbor.label]++;
     }
+    // predicts label with majority rule (ie. label most present in nearest neighbors)
     return Object.keys(counts).reduce((l1, l2) =>
       counts[l1] > counts[l2] ? l1 : l2
     );

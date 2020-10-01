@@ -1,8 +1,10 @@
+// checks if distance can be computed
 checkSizes = (vector1, vector2) => {
   if (vector1.length != vector2.length)
     throw Error("Vectors must have same dimension");
 };
 
+//sums all values of array
 vectorSum = (vector) => {
   return vector.reduce((previous, current) => {
     return previous + current;
@@ -27,11 +29,14 @@ manhattanDistance = (vector1, vector2) => {
   );
 };
 
+// available distance functions
 let distances = {
   euclidean: euclideanDistance,
   manhattan: manhattanDistance,
 };
 
+// Function gives us our test dataset
+// https://en.wikipedia.org/wiki/Iris_flower_data_set
 function getIris() {
   let X = [
     [5.1, 3.5, 1.4, 0.2],
