@@ -16,6 +16,6 @@ assignees: ''
 
 ##  Information
 
-- **ML Algorithm Name:logistic regression**
+- **ML Algorithm Name:Naive Bayes classifier**
 
 - **Language:python**
