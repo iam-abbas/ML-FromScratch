@@ -8,14 +8,14 @@ assignees: ''
 ---
 
 # ML - Algorithm
-- [ ] I have not used any Machine Learning Libraries in my code
-- [ ] This ML Algorithm is not available in the repository currently.
-- [ ] If it is, My ML Algorithm is implemented in a different method.
-- [ ] I have starred this repository
+- [x] I have not used any Machine Learning Libraries in my code
+- [x] This ML Algorithm is not available in the repository currently.
+- [x] If it is, My ML Algorithm is implemented in a different method.
+- [x] I have starred this repository
 
 
 ##  Information
 
-- **ML Algorithm Name:**
+- **ML Algorithm Name:logistic regression**
 
-- **Language:**
+- **Language:python**
