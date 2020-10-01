@@ -29,6 +29,7 @@ Anyone. Absolutely anyone can contribute to this repository. Please check the ru
 - Add an issue to this repository stating ML Algorithm Name and Language
 - Fork this repository
 - Pick an ML Algorithm and a Language
+- Implement it from **scratch without using libraries like skLearn, sciPy etc**.
 - Try to make the code more readable by adding comments wherever required
 - Add it to your repository in the directory order `[repository root]/Algorithm Name/Language/`
 - Create a Pull request
