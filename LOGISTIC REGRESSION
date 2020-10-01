@@ -1,0 +1,31 @@
+#Basically logistic regression by name is not used for regression it is used for classification purpose 
+#As for beginners who does not have any idea about logistic regression classifier . I am going to tell few points regarding logistic regressiion classifier .
+#Logistic Regression is a classification algorithm but not regression . It is a supervised learning algorithm which determines the probability of the dependent variable. It predicts whether something is true or false instead of predicting something continuous .Logistic regression doesn't fit a line instead it fits a s-shaped logistic function. Basically logistic regression is used as binary classifier . But it can also be used for n number of classes. If there are n number of classes then n separate logistic regression has to fit , where the probability of each character is predicted over the rest categories combined. Based on those number of categories the logistic regression classifier can be further divided as binary, multinomial and ordinal classifiers.
+#How to use logistic regression classifier .
+#suppose your are given data . And you have divided it into x_train , X_test(feature columns ) and y_train,y_Test (target colums ) then we can use logistic regression classifier as this .
+#importing LogisticRegression from the sklearn.linearmodeland assigning it to a variable
+
+from sklearn.linear_model import LogisticRegression
+lr = LogisticRegression()
+
+# Training the classifier using X_train and y_train by using .fit
+
+lr.fit(X_train,y_train)
+
+#Predicting the y values with respect to X_test
+
+lr_pred = lr.predict(X_test)
+
+#importing classification report and determining confusion matrix for predicted and observed y_test values 
+
+from sklearn.metrics import classification_report, confusion_matrix  
+print(confusion_matrix(y_test, lr_pred))  
+print(classification_report(y_test, lr_pred))
+
+#importingaccuracy_score function from sklearn.metrics package
+
+from sklearn.metrics import accuracy_score 
+acc = accuracy_score(y_test,lr_pred)
+print("Accuracy for this model {} %".format(acc*100))
+
+#This is a general program to check how accurately does a linear regression classifier work.
