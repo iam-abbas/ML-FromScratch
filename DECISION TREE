@@ -1,0 +1,28 @@
+#decision tree is one of the important ML algorithm . It is used for both classification and regression also .
+#to use decision tree algorithm and testing it . Use the steps given below and try to understand each step using the comments .
+
+#Suppose you are given data and you have divided it into X_train,X_test(feature columns) and y_train , y_test(target columns) Then you can test your model by following commands 
+# importing DecisionTreeClassifier from sklearn.tree
+ 
+from sklearn.tree import DecisionTreeClassifier  
+classifier  = DecisionTreeClassifier(criterion='gini')  
+
+#Training the classifier with X_train and y_train
+
+classifier.fit(X_train, y_train)
+
+#predicting the values of y with respect to X_test 
+
+y_pred = classifier.predict(X_test) 
+
+#importing classification report and determining confusion matrix for predicted and observed y_test values
+
+from sklearn.metrics import classification_report, confusion_matrix  
+print(confusion_matrix(y_test, y_pred))  
+print(classification_report(y_test, y_pred))
+
+#importing accuracy_score function from sklearn.metrics package
+
+from sklearn.metrics import accuracy_
+ acc = accuracy_score(y_test,y_pred)
+print("Accuracy for this model {} %".format(acc*100))
