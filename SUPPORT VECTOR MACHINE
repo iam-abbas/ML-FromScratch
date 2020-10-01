@@ -1,0 +1,25 @@
+#Support Vector Machine is one of the most powerful supervised machine learning algorithm , which can be used both for classification and regression problems . The SVM algorithm assumes all the data points in a hyper dimensional space and separates them using a hyper plane . It generates the hyper plane in an iterative manner to minimize the error. The goal of this algorithm is to divide the given datasets into classes. Some important concepts in SVM includes support vectors, hyper plane, and margin . Data points closest to hyper plane are considered as support vectors. Whereas the hyper plane is a decision plane which separates the data into different classes. whereas margin is defined as the gap between two lines on the closet data points of different classes .
+#If you have data and divided it into X_train,X_test(feature columns) and y_train , y_test(target colums ) Then we can use the following algorithm to determine how well your algorithm works on specific data.
+#importing SVC from sklearn.svm
+from sklearn.svm import SVC
+clf = SVC()
+
+#Training the data to the classifier using X_train,y_train
+
+clf.fit(X_train, y_train) 
+
+#Predicting the y values with respect to X_test
+
+svm_pred = clf.predict(X_test)  
+
+#importing classification report and determining confusion matrix for predicted and observed y_test values
+
+from sklearn.metrics import classification_report, confusion_matrix  
+print(confusion_matrix(y_test, svm_pred))  
+print(classification_report(y_test, svm_pred))
+
+#importing accuracy_score function from sklearn.metrics package
+
+from sklearn.metrics import accuracy_score 
+acc = accuracy_score(y_test,svm_pred)
+print("Accuracy for this model {} %".format(acc*100))
