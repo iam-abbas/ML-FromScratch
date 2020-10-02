@@ -1,0 +1,12 @@
+{
+  "name": "decision_tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "decision_tree.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node decision_tree"
+  },
+  "author": "",
+  "license": "ISC"
+}

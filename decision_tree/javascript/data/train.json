@@ -1,0 +1,596 @@
+[
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 2,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 2,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 2,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 2,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 2,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 2,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 2,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 2,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 2,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 2,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 2,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 2,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 2,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "S",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "male",
+    "embarked": "C",
+    "survived": 0
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  },
+  {
+    "pclass": 1,
+    "sex": "female",
+    "embarked": "C",
+    "survived": 1
+  }
+]
