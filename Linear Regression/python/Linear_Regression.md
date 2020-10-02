@@ -11,7 +11,7 @@ Normal Equation is an analytical approach to Linear Regression with a Least Squa
 
 It is calculated by:
 
-<img src="Linear Regression\python\normal_eq.png">
+<img src="https://github.com/Nitin1901/ML-FromScratch/blob/master/Linear%20Regression/python/norrrrrmal_eq.png">
 
 In the above equation,
 
@@ -25,8 +25,8 @@ Y : Output value of each instance.
 
 In this approach, we find the cost (error) and then try to minimize it at each iteration. 
 
-<img src="Linear Regression\python\cost_func.jpg">
+<img src="https://github.com/Nitin1901/ML-FromScratch/blob/master/Linear%20Regression/python/cost_func.jpg">
 
-<img src="Linear Regression\python\objective.jpg">
+<img src="https://github.com/Nitin1901/ML-FromScratch/blob/master/Linear%20Regression/python/objective.jpg">
 
 We can have many features but the model uses a linear approach. We can use polynomial equation for higher order models. 
