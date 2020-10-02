@@ -11,7 +11,7 @@ Normal Equation is an analytical approach to Linear Regression with a Least Squa
 
 It is calculated by:
 
-<img src="https://github.com/Nitin1901/ML-FromScratch/blob/master/Linear%20Regression/python/norrrrrmal_eq.png">
+<img src="https://github.com/Nitin1901/ML-FromScratch/blob/master/Linear%20Regression/python/normal_eq.png">
 
 In the above equation,
 
