@@ -14,9 +14,12 @@ A community-built repository which has Machine Learning algorithms that are buil
 
 </p>
 
-## What is this repository for?
+## About
+Python implementations of some of the fundamental Machine Learning models and algorithms from scratch.
 
-This repository contains Machine Learning Alogorithms that are implemented from scratch for purpose of better understanding to beginners
+The purpose of this project is not to produce as optimized and computationally efficient algorithms as possible
+but rather to present the inner workings of them in a transparent and accessible way.
+
 
 ## Who can contribute for this repository?
 
@@ -40,3 +43,68 @@ Anyone. Absolutely anyone can contribute to this repository. Please check the ru
 - Please do not spam pull request for the sake of Hacktoberfest.
 - No duplicate entries. Please check if the code is existing or not before you start submitting.
 - Star this repository to show appreciation towards public efforts.
+## Installation
+    $ git clone https://github.com/iam-abbas/ML-FromScratch
+    $ cd ML-FromScratch
+    $ python setup.py install
+    
+## Implementations Topics
+### Supervised Learning
+- Adaboost
+- Bayesian Regression
+- Decision Tree
+- Elastic Net
+- Gradient Boosting
+- K Nearest Neighbors
+- Lasso Regression
+- Linear Discriminant Analysis
+- Linear Regression
+- Logistic Regression
+- Multi-class Linear Discriminant Analysis
+- Multilayer Perceptron
+- Naive Bayes
+- Neuroevolution
+- Particle Swarm Optimization of Neural Network
+- Perceptron
+- Polynomial Regression
+- Random Forest
+- Ridge Regression
+- Support Vector Machine
+- XGBoost
+
+### Unsupervised Learning
+- Apriori
+- Autoencoder
+- BSCAN
+- FP-Growth
+- Gaussian Mixture Model
+- Generative Adversarial Network
+- Genetic Algorithm
+- K-Means
+- Partitioning Around Medoids
+- Principal Component Analysis
+- Restricted Boltzmann Machine
+
+### Reinforcement Learning
+- Deep Q-Network
+
+### Deep Learning
+  + Neural Network
+  + Layers
+    * Activation Layer
+    * Average Pooling Layer
+    * Batch Normalization Layer
+    * Constant Padding Layer
+    * Convolutional Layer
+    * Dropout Layer
+    * Flatten Layer
+    * Fully-Connected (Dense) Layer
+    * Fully-Connected RNN Layer
+    * Max Pooling Layer
+    * Reshape Layer
+    * Up Sampling Layer
+    * Zero Padding Layer
+  + Model Types
+    * Convolutional Neural Network
+    * Multilayer Perceptron
+    * Recurrent Neural Network
