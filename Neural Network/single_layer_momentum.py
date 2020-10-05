@@ -2,7 +2,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from planar_utils import *
-
 # Loading the data 
 X, y = load_data()
 
@@ -22,7 +21,7 @@ def relu_derivative(z):
     return 1 * (z > 0)
 
 # Defining some global variables
-hidden_neurons = 4 
+hidden_neurons = 10 
 epochs = 10000
 m = X.shape[1]
 learning_rate = 1.2
@@ -35,6 +34,9 @@ b1 = np.zeros((hidden_neurons, 1))
 W2 = np.random.randn(y.shape[0], hidden_neurons)*0.01
 b2 = np.zeros((y.shape[0], 1))
 
+
+v_t = np.zeros((4,))
+
 for epoch in range(epochs):
     
     # Forward propagation
@@ -46,6 +48,7 @@ for epoch in range(epochs):
     
     # Cost 
     logprobs = np.multiply(np.log(A2 + epsilon), y) + np.multiply((1 - y), np.log(1 - A2 + epsilon))
+
     cost[epoch] = - np.sum(logprobs) / m
     if epoch%1000 == 0: # Printing the cost after every 1000 iterations for debugging
         print(f'Cost after {epoch} iterations = {cost[epoch]}') 
@@ -58,11 +61,14 @@ for epoch in range(epochs):
     dW1 = (1/m) * np.dot(dZ1, X.T)
     db1 = (1/m) * np.sum(dZ1, axis=1, keepdims=True)
     
+    grads = np.array([dW2, db2, dW1, db1])
+    # caculating the exponential average.
+    v_t = 0.8*v_t + learning_rate*grads
     # Updating the parameters
-    W2 -= learning_rate*dW2
-    b2 -= learning_rate*db2
-    W1 -= learning_rate*dW1
-    b1 -= learning_rate*db1
+    W2 -= v_t[0]
+    b2 -= v_t[1]
+    W1 -= v_t[2]
+    b1 -= v_t[3]
 
 plt.style.use('fivethirtyeight')
         
