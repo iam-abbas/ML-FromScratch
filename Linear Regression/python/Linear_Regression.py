@@ -55,7 +55,7 @@ for k in range(n):
     theta = update_theta(theta, learning_rate)
     cost.append(cost_function(theta, learning_rate))
 
-print(f'Gradient Descent method: {theta}') # Parameter values
+print(f'Gradient Descent method: {theta}') 
 
 # Visualizing the cost function
 plt.plot(np.arange(n), cost)
