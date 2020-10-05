@@ -27,6 +27,7 @@ epochs = 10000
 m = X.shape[1]
 learning_rate = 1.2
 cost = [0]*epochs # For visualizaion
+epsilon = 1e-8
 
 # Initializing the weights
 W1 = np.random.randn(hidden_neurons, X.shape[0])*0.01
@@ -44,7 +45,7 @@ for epoch in range(epochs):
     A2 = sigmoid(Z2)
     
     # Cost 
-    logprobs = np.multiply(np.log(A2), y) + np.multiply((1 - y), np.log(1 - A2))
+    logprobs = np.multiply(np.log(A2 + epsilon), y) + np.multiply((1 - y), np.log(1 - A2 + epsilon))
     cost[epoch] = - np.sum(logprobs) / m
     if epoch%1000 == 0: # Printing the cost after every 1000 iterations for debugging
         print(f'Cost after {epoch} iterations = {cost[epoch]}') 
