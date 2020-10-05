@@ -29,6 +29,26 @@ def compute_cost(X, y, theta):
     cost = (1/m)*(((-y).T @ np.log(h + epsilon))-((1-y).T @ np.log(1-h + epsilon)))
     return cost
 
+# Implementation of the stochastic gradient descent with regularization
+def gradient_descent_rg(X, y, params, learning_rate, iterations, lmb):
+    m = len(y)
+    cost_history = np.zeros((iterations, 1))
+
+    for i in range(iterations):
+        params = params - ((learning_rate/m) * (X.T @ (sigmoid(X @ params) - y))  + (lmb/m)*params)
+        cost_history[i] = compute_cost(X, y, params)
+
+    return (cost_history, params)
+
+
+# Computing the cost via the negative log loss with regularization
+def compute_cost_rg(X, y, theta, lmb):
+    m = len(y)
+    h = sigmoid(X @ theta)
+    epsilon = 1e-5
+    cost = (1/m)*(((-y).T @ np.log(h + epsilon))-((1-y).T @ np.log(1-h + epsilon))) + (lmb/2)*np.sum(np.square(theta))
+    return cost
+
 
 def predict(X, params):
     return np.round(sigmoid(X @ params))
@@ -57,23 +77,33 @@ learning_rate = 0.01  # Learning rate of stochastic gradient descent
 initial_cost = compute_cost(X, y, params)
 
 print("Initial Cost is: {} \n".format(initial_cost))
-
+# without reg
 (cost_history, params_optimal) = gradient_descent(X, y, params, learning_rate, iterations)
+# with reg
+(cost_history_rg, params_optimal_rg) = gradient_descent_rg(X, y, params, learning_rate, iterations, lmb=0.01)
 
-print("Optimal Parameters are: \n", params_optimal, "\n")
+print("Optimal Parameters without regularization are: \n", params_optimal, "\n")
+print("Optimal Parameters with regularization are: \n", params_optimal_rg, "\n")
 
 plt.figure()
 sns.set_style('white')
-plt.plot(range(len(cost_history)), cost_history, 'r')
+plt.plot(range(len(cost_history)), cost_history)
+plt.plot(range(len(cost_history_rg)), cost_history_rg)
+plt.legend(['without_reg', 'with_reg'])
 plt.title("Convergence Graph of Cost Function")
 plt.xlabel("Number of Iterations")
 plt.ylabel("Cost")
 plt.show()
 
+# predictions without regularization
 y_pred = predict(X, params_optimal)
 score = float(sum(y_pred == y)) / float(len(y))
+print("Score without regularization is : ", score)
 
-print("Score is : ", score)
+# predictions with regularization
+y_pred = predict(X, params_optimal_rg)
+score = float(sum(y_pred == y)) / float(len(y))
+print("Score with regularization is : ", score)
 
 slope = -(params_optimal[1] / params_optimal[2])
 intercept = -(params_optimal[0] / params_optimal[2])
