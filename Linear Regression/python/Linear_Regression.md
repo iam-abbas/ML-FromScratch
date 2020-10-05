@@ -30,3 +30,13 @@ In this approach, we find the cost (error) and then try to minimize it at each i
 <img src="https://github.com/Nitin1901/ML-FromScratch/blob/master/Linear%20Regression/python/objective.jpg">
 
 We can have many features but the model uses a linear approach. We can use polynomial equation for higher order models. 
+
+### Regularization
+
+This is an optional parameter that we can use with cost functions to combat overfitting problem in machine learning datasets.
+
+The cost function is modified as shown -
+
+![image](cost_function_rg.png)
+
+The extra parameter lambda ensures that the model does not overfit.
