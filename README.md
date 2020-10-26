@@ -36,7 +36,7 @@ Anyone. Absolutely anyone can contribute to this repository. Please check the ru
 - Feel free to improve the README.md
 
 ## Rules
-
+- Please  learn ML before add an issue
 - Please do not spam pull request for the sake of Hacktoberfest.
 - No duplicate entries. Please check if the code is existing or not before you start submitting.
 - Star this repository to show appreciation towards public efforts.
